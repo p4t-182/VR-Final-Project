@@ -9,17 +9,20 @@ public static class Score
     public static int totalscore = 0;
 
     public static TMPro.TMP_Text HighScore;
+    public static TMPro.TMP_Text final;
 
     public static void AddScore(int v){
         Score.score += v;
     }
 
 
-    public static void HiScore(int curr){
+    public static void FinalScore(int curr){
         if(curr > Score.totalscore){
             Score.totalscore = curr;
             
-            HighScore.text =  "NEW HIGH SCORE";
+            HighScore.text =  "NEW HIGH SCORE" + curr.ToString();
+        }else{
+            final.text = "Score: " + curr.ToString();
         }
     }
 }
