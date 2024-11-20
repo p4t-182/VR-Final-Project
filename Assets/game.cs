@@ -24,12 +24,13 @@ public class game : MonoBehaviour
 
     private float timer = 60f;
     private float countdown;
+    private bool gameOver = false;
 
 
 
     void Start()
     {
-        timer = countdown;
+        countdown= timer;
 
     }
 
@@ -50,11 +51,13 @@ public class game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(gameOver) return;
+
         if (countdown <= 0)
         {
             // get score and run it through the hiscore check
             countdown = 0;
-            FinalScore(Score.score);
+            GameOver();
         }
         else
         {
@@ -67,5 +70,13 @@ public class game : MonoBehaviour
     void updatetimeDisplay()
     {
         displayTime.text = "Time: " + Mathf.CeilToInt(countdown).ToString();
+    }
+
+    void GameOver()
+    {
+        gameOver = true;
+        Time.timeScale = 0; // Stop all physics and time-dependent updates
+        FinalScore(Score.score);
+        Debug.Log("Game Over!"); // You can also trigger other end-game UI elements here
     }
 }
