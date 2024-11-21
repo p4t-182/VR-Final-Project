@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 
 
@@ -26,6 +28,9 @@ public class game : MonoBehaviour
     private float countdown;
     private bool gameOver = false;
 
+    public InputActionReference triggerLeft;
+    public InputActionReference triggerRight;
+
 
 
     void Start()
@@ -40,18 +45,27 @@ public class game : MonoBehaviour
         {
             Score.totalscore = curr;
 
-            HighScore.text = "NEW HIGH SCORE" + curr.ToString();
+            HighScore.text = "NEW HIGH SCORE:  " + curr.ToString();
         }
-        else
-        {
-            final.text = "Score: " + curr.ToString();
-        }
+  
+        final.text = "Score: " + curr.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(gameOver) return;
+        float leftTriggerValue = triggerLeft.action.ReadValue<float>();
+        float rightTriggerValue = triggerRight.action.ReadValue<float>();
+
+        if (leftTriggerValue > 0.5f && rightTriggerValue > 0.5f)
+        {
+            SceneManager.LoadScene("Scenes/MainScene");
+            Score.score = 0;
+            Score.totalscore = 0;
+           
+        }
+
+        if (gameOver) return;
 
         if (countdown <= 0)
         {
@@ -63,6 +77,7 @@ public class game : MonoBehaviour
         {
             countdown -= Time.deltaTime;
             updatetimeDisplay();
+            final.text = "Score: " + Score.score;
         }
 
     }
@@ -75,8 +90,10 @@ public class game : MonoBehaviour
     void GameOver()
     {
         gameOver = true;
-        Time.timeScale = 0; // Stop all physics and time-dependent updates
+        Time.timeScale = 0; 
         FinalScore(Score.score);
-        Debug.Log("Game Over!"); // You can also trigger other end-game UI elements here
+        Debug.Log("Game Over!");
+       
+        
     }
 }

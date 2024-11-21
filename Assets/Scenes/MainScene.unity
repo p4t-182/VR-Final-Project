@@ -295,7 +295,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192446075}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -417,6 +417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -424,6 +428,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 235127632}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 235127636}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &235127631 stripped
 GameObject:
@@ -457,6 +464,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &235127636
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235127631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700457
+  m_Height: 0.018943202
+  m_Direction: 1
+  m_Center: {x: 0.0005837671, y: -0.0000311714, z: 0.0006326994}
 --- !u!1 &238358760
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +624,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &287917437
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287917432}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700451
+  m_Height: 0.018943192
+  m_Direction: 1
+  m_Center: {x: 0.00058376504, y: -0.00003117137, z: 0.0006326972}
 --- !u!1001 &302748605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -658,6 +711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -665,6 +722,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 302748607}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 302748611}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &302748606 stripped
 GameObject:
@@ -698,6 +758,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &302748611
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302748606}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700456
+  m_Height: 0.018943202
+  m_Direction: 1
+  m_Center: {x: 0.00058376516, y: -0.000031171454, z: 0.00063269737}
 --- !u!1 &336040313
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,7 +897,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336040313}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -936,6 +1019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -943,6 +1030,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 980893998}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 980894002}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &405841594
 GameObject:
@@ -1121,7 +1211,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414268209}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2049,7 +2139,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478545808}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2223,7 +2313,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685606178}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2397,7 +2487,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694441637}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2563,23 +2653,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 79.999985
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 79.999985
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.839999
+      value: -9.09
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.72
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.12
+      value: 2.86
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2638,6 +2728,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 728581688}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 728581692}
   m_SourcePrefab: {fileID: 100100000, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
 --- !u!1 &728581682 stripped
 GameObject:
@@ -2833,7 +2926,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2844,6 +2937,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.013847904, y: 0.025287103, z: 0.058015764}
   m_Center: {x: 0, y: -0.0000000023283062, z: -0.0033947644}
+--- !u!114 &728581692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728581682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b3424cce0e14c3c80cce80dea20dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &735239409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2908,6 +3013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2915,6 +3024,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 735239411}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 735239415}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &735239410 stripped
 GameObject:
@@ -2948,6 +3060,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &735239415
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735239410}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700457
+  m_Height: 0.018943207
+  m_Direction: 1
+  m_Center: {x: 0.0005837652, y: -0.000031171538, z: 0.0006326976}
 --- !u!1001 &783718333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3297,6 +3432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3304,6 +3443,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 880813401}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 880813405}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &880813400 stripped
 GameObject:
@@ -3337,6 +3479,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &880813405
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880813400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0127004525
+  m_Height: 0.018943194
+  m_Direction: 1
+  m_Center: {x: 0.0005837651, y: -0.00003117131, z: 0.0006326972}
 --- !u!1 &939030566
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,6 +3737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3579,6 +3748,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 287917433}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 287917437}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &963194225
 GameObject:
@@ -3790,6 +3962,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &980894002
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980893994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700457
+  m_Height: 0.018943202
+  m_Direction: 1
+  m_Center: {x: 0.0005837652, y: -0.000031171472, z: 0.0006326974}
 --- !u!1001 &1068547381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3854,6 +4049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3861,6 +4060,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1068547383}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1068547387}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &1068547382 stripped
 GameObject:
@@ -3894,6 +4096,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &1068547387
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068547382}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700453
+  m_Height: 0.018943202
+  m_Direction: 1
+  m_Center: {x: 0.000583765, y: -0.00003117148, z: 0.00063269725}
 --- !u!1 &1117204753
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,7 +4235,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117204753}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4185,7 +4410,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174182181}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4518,6 +4743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4525,6 +4754,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1330594572}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1330594576}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &1330594571 stripped
 GameObject:
@@ -4558,6 +4790,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &1330594576
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330594571}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700455
+  m_Height: 0.018943196
+  m_Direction: 1
+  m_Center: {x: 0.0005837652, y: -0.000031171377, z: 0.0006327009}
 --- !u!1001 &1645700763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4622,6 +4877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4629,6 +4888,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1645700765}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1645700769}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &1645700764 stripped
 GameObject:
@@ -4662,6 +4924,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &1645700769
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645700764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700455
+  m_Height: 0.018943196
+  m_Direction: 1
+  m_Center: {x: 0.0005837652, y: -0.000031173207, z: 0.0006326936}
 --- !u!1 &1661927289
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,6 +4979,8 @@ MonoBehaviour:
   displayTime: {fileID: 793844053}
   HighScore: {fileID: 939030567}
   final: {fileID: 2048168008}
+  triggerLeft: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  triggerRight: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!4 &1661927291
 Transform:
   m_ObjectHideFlags: 0
@@ -5527,7 +5814,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935140210}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5701,7 +5988,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946792130}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5823,6 +6110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gopher model (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      propertyPath: m_TagString
+      value: Gopher
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5830,6 +6121,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1947262935}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1947262939}
   m_SourcePrefab: {fileID: 100100000, guid: 29ac32a9fff584899b72fac3a21897d6, type: 3}
 --- !u!1 &1947262934 stripped
 GameObject:
@@ -5863,6 +6157,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
+--- !u!136 &1947262939
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947262934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012700456
+  m_Height: 0.018943202
+  m_Direction: 1
+  m_Center: {x: 0.00058376516, y: -0.000031171454, z: 0.00063269364}
 --- !u!1001 &1950179229
 PrefabInstance:
   m_ObjectHideFlags: 0

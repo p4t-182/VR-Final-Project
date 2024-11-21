@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class whack : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject Whammer; 
-    // Start is called before the first frame update
+    //private XRGrabInteractable grabInteractable;
 
+    //void Start()
+    //{
+    //    grabInteractable = GetComponent<XR Grab Interactable>();
+    //}
+    //void Update()
+    //{
+    //    if (grabInteractable.isSelected)
+    //    {
 
-    
+    //    }
+    //}
 
-    void OnCollisionEnter(Collision __){
+    void OnCollisionEnter(Collision collider){
         
-        Score.AddScore(2);
+        if (collider.gameObject.tag == "Gopher")
+        {
+            Score.AddScore(2);
+        }
+        
     }
 
    
