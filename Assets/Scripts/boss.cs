@@ -19,18 +19,18 @@ public class boss : MonoBehaviour
         
         
 
-            if(collider.gameObject.tag == "Lefthandhammer"){
+            if(collider.gameObject.tag == "LeftHandHammer"){
                 audio.PlayOneShot(bonkSound);
-                collider.gameObject.transform.DOScaleZ(0.3f, 1f);
-                 Score.AddScore(Score.score*2);
-                 collider.gameObject.transform.DOScaleZ(300f, 1f).SetDelay(1f);
+                transform.DOScaleZ(0.3f, 1f);
+                Score.AddScore(Score.score*2);
+                transform.DOScaleZ(300f, 1f).SetDelay(1f);
 
-            }else if(collider.gameObject.tag == "Righthandhammer"){
+            }else if(collider.gameObject.tag == "RightHandHammer"){
                  
                  audio.PlayOneShot(bonkSound);
-                collider.gameObject.transform.DOScaleZ(-0.3f, 1f);
+                 transform.DOScaleZ(-0.3f, 1f);
                  Score.AddScore(Score.score*2);
-                 collider.gameObject.transform.DOScaleZ(300f, 1f).SetDelay(1f);
+                 transform.DOScaleZ(300f, 1f).SetDelay(1f);
             }
             
             

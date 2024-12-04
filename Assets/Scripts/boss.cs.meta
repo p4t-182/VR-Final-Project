@@ -3,7 +3,8 @@ guid: b2d09ff7b276b41358dd5724ab22ab51
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bonkSound: {fileID: 8300000, guid: d1cf4f9dec34a1b40ac2e626f0a712f8, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
