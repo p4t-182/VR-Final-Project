@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Right_Hand
   - Gopher
+  - RightHandHammer
+  - LeftHandHammer
   layers:
   - Default
   - TransparentFX
