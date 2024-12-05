@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 
 
 
-public class game : MonoBehaviour
+public class bossLevel : MonoBehaviour
 {
 
     //    /*This is the code that controls the game when it starts
@@ -24,18 +24,17 @@ public class game : MonoBehaviour
     public TMPro.TMP_Text HighScore;
     public TMPro.TMP_Text final;
 
-    private float timer = 60f;
+    private float timer = 10f;
     private float countdown;
     private bool gameOver = false;
 
-    public InputActionReference triggerLeft;
-    public InputActionReference triggerRight;
+    
 
 
 
     void Start()
     {
-        countdown= timer;
+        countdown = timer;
 
     }
 
@@ -54,16 +53,7 @@ public class game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float leftTriggerValue = triggerLeft.action.ReadValue<float>();
-        float rightTriggerValue = triggerRight.action.ReadValue<float>();
-
-        if (leftTriggerValue > 0.5f && rightTriggerValue > 0.5f)
-        {
-            SceneManager.LoadScene("Scenes/MainScene");
-            Score.score = 0;
-            Score.totalscore = 0;
-           
-        }
+    
 
         if (gameOver) return;
 
@@ -72,7 +62,6 @@ public class game : MonoBehaviour
             // get score and run it through the hiscore check
             countdown = 0;
             GameOver();
-            SceneManager.LoadScene("Scenes/Boss");
         }
         else
         {
