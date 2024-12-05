@@ -27,8 +27,10 @@ public class bossLevel : MonoBehaviour
     private float timer = 10f;
     private float countdown;
     private bool gameOver = false;
+    public InputActionReference triggerLeft;
+    public InputActionReference triggerRight;
 
-    
+
 
 
 
@@ -53,7 +55,17 @@ public class bossLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+
+        float leftTriggerValue = triggerLeft.action.ReadValue<float>();
+        float rightTriggerValue = triggerRight.action.ReadValue<float>();
+
+        if (leftTriggerValue > 0.5f && rightTriggerValue > 0.5f)
+        {
+            SceneManager.LoadScene("Scenes/Boss");
+            Score.score = 0;
+            Score.totalscore = 0;
+
+        }
 
         if (gameOver) return;
 
@@ -65,6 +77,7 @@ public class bossLevel : MonoBehaviour
         }
         else
         {
+            Debug.Log(Time.deltaTime);
             countdown -= Time.deltaTime;
             updatetimeDisplay();
             final.text = "Score: " + Score.score;

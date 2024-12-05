@@ -24,7 +24,7 @@ public class game : MonoBehaviour
     public TMPro.TMP_Text HighScore;
     public TMPro.TMP_Text final;
 
-    private float timer = 60f;
+    private float timer = 10f;
     private float countdown;
     private bool gameOver = false;
 
@@ -91,7 +91,6 @@ public class game : MonoBehaviour
     void GameOver()
     {
         gameOver = true;
-        Time.timeScale = 0; 
         FinalScore(Score.score);
         Debug.Log("Game Over!");
        
