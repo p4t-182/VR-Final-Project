@@ -61,7 +61,7 @@ public class bossLevel : MonoBehaviour
 
         if (leftTriggerValue > 0.5f && rightTriggerValue > 0.5f)
         {
-            SceneManager.LoadScene("Scenes/Boss");
+            SceneManager.LoadScene("Scenes/MainScene");
             Score.score = 0;
             Score.totalscore = 0;
 

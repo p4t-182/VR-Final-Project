@@ -24,7 +24,7 @@ public class game : MonoBehaviour
     public TMPro.TMP_Text HighScore;
     public TMPro.TMP_Text final;
 
-    private float timer = 10f;
+    private float timer = 60f;
     private float countdown;
     private bool gameOver = false;
 
@@ -62,7 +62,7 @@ public class game : MonoBehaviour
             SceneManager.LoadScene("Scenes/MainScene");
             Score.score = 0;
             Score.totalscore = 0;
-           
+         
         }
 
         if (gameOver) return;

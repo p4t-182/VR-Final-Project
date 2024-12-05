@@ -15,17 +15,17 @@ public class boss : MonoBehaviour
         audio = GetComponent<AudioSource>();
     }
 
-    void OnCollisionEnter(Collision collider){
+    void OnTriggerEnter(Collider col){
         
         
 
-            if(collider.gameObject.tag == "LeftHandHammer"){
+            if(col.gameObject.tag == "LeftHandHammer"){
                 audio.PlayOneShot(bonkSound);
                 transform.DOScaleZ(0.3f, 1f);
                 Score.AddScore(Score.score*2);
                 transform.DOScaleZ(300f, 1f).SetDelay(1f);
 
-            }else if(collider.gameObject.tag == "RightHandHammer"){
+            }else if(col.gameObject.tag == "RightHandHammer"){
                  
                  audio.PlayOneShot(bonkSound);
                  transform.DOScaleZ(-0.3f, 1f);
