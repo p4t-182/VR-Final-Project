@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class boss : MonoBehaviour
 {
    
     [SerializeField] private AudioClip bonkSound;
+    [SerializeField] private XRBaseController controller;
     private AudioSource audio;
 
 
@@ -20,15 +22,16 @@ public class boss : MonoBehaviour
         
 
             if(col.gameObject.tag == "LeftHandHammer"){
+                controller.SendHapticImpulse(0.7f, 2f);
                 audio.PlayOneShot(bonkSound);
                 transform.DOScaleZ(0.3f, 1f);
                 Score.AddScore(Score.score*2);
                 transform.DOScaleZ(300f, 1f).SetDelay(1f);
 
             }else if(col.gameObject.tag == "RightHandHammer"){
-                 
-                 audio.PlayOneShot(bonkSound);
-                 transform.DOScaleZ(-0.3f, 1f);
+                controller.SendHapticImpulse(0.7f, 2f);
+                audio.PlayOneShot(bonkSound);
+                transform.DOScaleZ(-0.3f, 1f);
                  Score.AddScore(Score.score*2);
                  transform.DOScaleZ(300f, 1f).SetDelay(1f);
             }

@@ -93,7 +93,7 @@ public class bossLevel : MonoBehaviour
     void GameOver()
     {
         gameOver = true;
-        Time.timeScale = 0; 
+       // Time.timeScale = 0; 
         FinalScore(Score.score);
         Debug.Log("Game Over!");
        

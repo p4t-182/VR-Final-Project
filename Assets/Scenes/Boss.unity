@@ -3261,7 +3261,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d1cf4f9dec34a1b40ac2e626f0a712f8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3359,7 +3359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d09ff7b276b41358dd5724ab22ab51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bonkSound: {fileID: 8300000, guid: d1cf4f9dec34a1b40ac2e626f0a712f8, type: 3}
+  bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
+  controller: {fileID: 1375629566}
 --- !u!136 &2027943210
 CapsuleCollider:
   m_ObjectHideFlags: 0
