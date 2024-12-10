@@ -10,6 +10,7 @@ public class whack : MonoBehaviour
     [SerializeField] private AudioClip bonkSound;
     private AudioSource audio;
     [SerializeField] private XRBaseController controller;
+    private ParticleSystem explosion;
 
 
     void Start()
@@ -27,6 +28,7 @@ public class whack : MonoBehaviour
             ground.transform.DOShakePosition(1.8f, new Vector3(0.13f, 0, 0), 13, 0, false, false);
             Score.AddScore(2);
             transform.DOScaleX(300f, 1f).SetDelay(2f);
+            explosion.Play();
 
         }
         
