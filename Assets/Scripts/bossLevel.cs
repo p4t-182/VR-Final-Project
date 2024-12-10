@@ -24,6 +24,9 @@ public class bossLevel : MonoBehaviour
     public TMPro.TMP_Text HighScore;
     public TMPro.TMP_Text final;
 
+    [SerializeField] private ParticleSystem firework;
+        [SerializeField] private ParticleSystem subemitter;
+
     private float timer = 10f;
     private float countdown;
     private bool gameOver = false;
@@ -96,6 +99,8 @@ public class bossLevel : MonoBehaviour
        // Time.timeScale = 0; 
         FinalScore(Score.score);
         Debug.Log("Game Over!");
+        firework.Play();
+        subemitter.Play();
        
         
     }
