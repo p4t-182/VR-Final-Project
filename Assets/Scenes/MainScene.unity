@@ -5429,6 +5429,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &235127644
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5700,6 +5702,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &287917445
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5951,6 +5955,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &302748619
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8231,6 +8237,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 0}
+  explosion: {fileID: 0}
+  flash: {fileID: 0}
 --- !u!82 &728581696
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8482,6 +8490,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &735239423
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9032,6 +9042,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &880813413
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9646,6 +9658,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &980894010
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14734,6 +14748,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &1068547395
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20433,6 +20449,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &1330594584
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25573,6 +25591,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &1645700777
 AudioSource:
   m_ObjectHideFlags: 0
@@ -26923,6 +26943,8 @@ MonoBehaviour:
   ground: {fileID: 1027538070}
   bonkSound: {fileID: 8300000, guid: d78194d0528f0bd4db6491ec426072ae, type: 3}
   controller: {fileID: 1845432820}
+  explosion: {fileID: 93697123}
+  flash: {fileID: 1174129081}
 --- !u!82 &1947262947
 AudioSource:
   m_ObjectHideFlags: 0

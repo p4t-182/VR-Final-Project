@@ -10,7 +10,8 @@ public class whack : MonoBehaviour
     [SerializeField] private AudioClip bonkSound;
     private AudioSource audio;
     [SerializeField] private XRBaseController controller;
-    private ParticleSystem explosion;
+    [SerializeField] private ParticleSystem explosion;
+    [SerializeField] private ParticleSystem flash;
 
 
     void Start()
@@ -29,6 +30,7 @@ public class whack : MonoBehaviour
             Score.AddScore(2);
             transform.DOScaleX(300f, 1f).SetDelay(2f);
             explosion.Play();
+            flash.Play();
 
         }
         
