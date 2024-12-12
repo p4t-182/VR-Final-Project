@@ -10,7 +10,7 @@ public class boss : MonoBehaviour
     [SerializeField] private AudioClip bonkSound;
     [SerializeField] private XRBaseController controller;
 
-     [SerializeField] private ParticleSystem explosion;
+    [SerializeField] private ParticleSystem explosion;
     [SerializeField] private ParticleSystem flash;
     private AudioSource audio;
 
@@ -28,7 +28,7 @@ public class boss : MonoBehaviour
                 controller.SendHapticImpulse(0.7f, 2f);
                 audio.PlayOneShot(bonkSound);
                 transform.DOScaleZ(0.3f, 1f);
-                Score.AddScore(Score.score*2);
+                Score.AddScore(Mathf.FloorToInt(Score.score*1.2f));
                 transform.DOScaleZ(300f, 1f).SetDelay(1f);
                 explosion.Play();
                 flash.Play();
@@ -37,7 +37,7 @@ public class boss : MonoBehaviour
                 controller.SendHapticImpulse(0.7f, 2f);
                 audio.PlayOneShot(bonkSound);
                 transform.DOScaleZ(-0.3f, 1f);
-                 Score.AddScore(Score.score*2);
+                 Score.AddScore(Mathf.FloorToInt(Score.score*1.2f));
                  transform.DOScaleZ(300f, 1f).SetDelay(1f);
                  explosion.Play();
                 flash.Play();

@@ -100,7 +100,7 @@ public class bossLevel : MonoBehaviour
         FinalScore(Score.score);
         Debug.Log("Game Over!");
         firework.Play();
-        subemitter.Play();
+         subemitter.Play();
        
         
     }
