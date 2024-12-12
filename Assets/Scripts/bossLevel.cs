@@ -23,6 +23,7 @@ public class bossLevel : MonoBehaviour
 
     public TMPro.TMP_Text HighScore;
     public TMPro.TMP_Text final;
+    [SerializeField] private GameObject baws;
 
     [SerializeField] private ParticleSystem firework;
         [SerializeField] private ParticleSystem subemitter;
@@ -100,8 +101,12 @@ public class bossLevel : MonoBehaviour
         FinalScore(Score.score);
         Debug.Log("Game Over!");
         firework.Play();
-         subemitter.Play();
-       
+        subemitter.Play();
+
+        while (true)
+        {
+            baws.transform.position = new Vector3(baws.transform.position.x, baws.transform.position.y + 0.6f, baws.transform.position.z);
+        }
         
     }
 }

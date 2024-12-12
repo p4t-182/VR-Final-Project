@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6575da91967e4164a840c9bcf563c4c5, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -5699,8 +5699,8 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 431d4b86740254e53832493f7c8ee9ec, type: 2}
-  - {fileID: 2100000, guid: 431d4b86740254e53832493f7c8ee9ec, type: 2}
+  - {fileID: 2100000, guid: aa46d40137bbb48c4bff2e3f8b2c9183, type: 2}
+  - {fileID: 2100000, guid: aa46d40137bbb48c4bff2e3f8b2c9183, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6883,8 +6883,8 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9e7905f5b87534dc3abaa2569b440295, type: 2}
-  - {fileID: 2100000, guid: 9e7905f5b87534dc3abaa2569b440295, type: 2}
+  - {fileID: 2100000, guid: aa46d40137bbb48c4bff2e3f8b2c9183, type: 2}
+  - {fileID: 2100000, guid: aa46d40137bbb48c4bff2e3f8b2c9183, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7126,8 +7126,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.0141509175, g: 0.95111495, b: 1, a: 0.23529412}
-      maxColor: {r: 0.81355953, g: 0, b: 1, a: 0.23529412}
+      minColor: {r: 1, g: 0.015686274, b: 0.74035573, a: 0.23529412}
+      maxColor: {r: 0.5003329, g: 0, b: 0.61635214, a: 0.23529412}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -11049,7 +11049,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 65342
+        atime1: 65535
         atime2: 0
         atime3: 0
         atime4: 0
