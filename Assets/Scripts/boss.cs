@@ -28,6 +28,7 @@ public class boss : MonoBehaviour
                 controller.SendHapticImpulse(0.7f, 2f);
                 audio.PlayOneShot(bonkSound);
                 transform.DOScaleZ(0.1f, 1f);
+                transform.DOShakePosition(1.8f, new Vector3(0.13f, 0, 0), 13, 0, false, false);
                 Score.AddScore(Mathf.FloorToInt(Score.score*1.02f));
                 transform.DOScaleZ(300f, 1f).SetDelay(1f);
                 explosion.Play();
@@ -36,9 +37,10 @@ public class boss : MonoBehaviour
             }else if(col.gameObject.tag == "RightHandHammer"){
                 controller.SendHapticImpulse(0.7f, 2f);
                 audio.PlayOneShot(bonkSound);
-                transform.DOPunchPosition(transform.position, 2f, 1, 0.4f, false);
-                 Score.AddScore(Mathf.FloorToInt(Score.score*1.02f));
-                 transform.DOScaleY(300f, 1f).SetDelay(1f);
+                transform.DOScaleZ(0.1f, 1f);
+                transform.DOShakePosition(1.8f, new Vector3(0.13f, 0, 0), 13, 0, false, false);
+                Score.AddScore(Mathf.FloorToInt(Score.score*1.02f));
+                transform.DOScaleZ(300f, 1f).SetDelay(1f);
                  explosion.Play();
                 flash.Play();
             }
