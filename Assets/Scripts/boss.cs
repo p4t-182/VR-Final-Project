@@ -9,6 +9,9 @@ public class boss : MonoBehaviour
    
     [SerializeField] private AudioClip bonkSound;
     [SerializeField] private XRBaseController controller;
+
+     [SerializeField] private ParticleSystem explosion;
+    [SerializeField] private ParticleSystem flash;
     private AudioSource audio;
 
 
@@ -27,6 +30,8 @@ public class boss : MonoBehaviour
                 transform.DOScaleZ(0.3f, 1f);
                 Score.AddScore(Score.score*2);
                 transform.DOScaleZ(300f, 1f).SetDelay(1f);
+                explosion.Play();
+                flash.Play();
 
             }else if(col.gameObject.tag == "RightHandHammer"){
                 controller.SendHapticImpulse(0.7f, 2f);
@@ -34,6 +39,8 @@ public class boss : MonoBehaviour
                 transform.DOScaleZ(-0.3f, 1f);
                  Score.AddScore(Score.score*2);
                  transform.DOScaleZ(300f, 1f).SetDelay(1f);
+                 explosion.Play();
+                flash.Play();
             }
             
             
