@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
-
+using DG.Tweening;
 
 
 public class bossLevel : MonoBehaviour
@@ -102,11 +102,7 @@ public class bossLevel : MonoBehaviour
         Debug.Log("Game Over!");
         firework.Play();
         subemitter.Play();
-
-        while (true)
-        {
-            baws.transform.position = new Vector3(baws.transform.position.x, baws.transform.position.y + 0.6f, baws.transform.position.z);
-        }
+        baws.transform.DOMoveY(500f, 50f, false);
         
     }
 }

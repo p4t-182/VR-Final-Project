@@ -230,11 +230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 199.99997
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 199.99997
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -860,6 +860,7 @@ MonoBehaviour:
   displayTime: {fileID: 1716180610}
   HighScore: {fileID: 1174395248}
   final: {fileID: 568039422}
+  baws: {fileID: 2027943207}
   firework: {fileID: 1253092486}
   subemitter: {fileID: 927773859}
   triggerLeft: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
@@ -11690,11 +11691,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 199.99997
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 199.99997
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12ca14d685fe14424adbae55a6d6ea3d, type: 3}
       propertyPath: m_LocalPosition.x
